@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skyscope Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>SKYSCOPE</h1>
+    <div class="social-links">
+      <a href="https://github.com/vxnuprasad" target="_blank"><i class="bx bxl-github"></i></a>
+      <a href="https://www.instagram.com/__.v.shnu" target="_blank"><i class="bx bxl-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/vxnuprasad" target="_blank"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </header>
+
+  <!-- Search Section -->
+  <main>
+    <div class="search-container">
+      <input type="text" id="location-input" placeholder="Enter the location" />
+      <button id="search-button">Search</button>
+    </div>
+
+    <!-- Weather Info -->
+    <div id="weather-details" class="hidden">
+      <h2 id="location-name"></h2>
+      <p id="temperature"></p>
+      <p id="conditions"></p>
+      <div id="weather-icon"></div>
+      <p id="time"></p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>THIS IS A WEBSITE CREATED FOR INTERNSHIP TASK</p>
+    <p>&copy; INTERNCRAFTERS_WD_05. All rights reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

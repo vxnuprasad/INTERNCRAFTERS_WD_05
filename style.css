@@ -1,0 +1,82 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #101820;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f2f2f2;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header .social-links i {
+  color: #f2f2f2;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 28px; /* Increased size of social media icons */
+}
+
+header .social-links i:hover {
+  color: #f05454; /* Optional: Add hover effect to icons */
+}
+
+/* Main Section */
+.search-container {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#location-input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+#search-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f05454;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #d14343;
+}
+
+#weather-details {
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #f2f2f2;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
