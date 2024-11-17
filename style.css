@@ -25,11 +25,11 @@ header .social-links i {
   color: #f2f2f2;
   margin: 0 10px;
   cursor: pointer;
-  font-size: 28px; /* Increased size of social media icons */
+  font-size: 28px;
 }
 
 header .social-links i:hover {
-  color: #f05454; /* Optional: Add hover effect to icons */
+  color: #f05454;
 }
 
 /* Main Section */
@@ -61,6 +61,7 @@ header .social-links i:hover {
   background-color: #d14343;
 }
 
+/* Weather Info */
 #weather-details {
   margin-top: 50px;
 }
